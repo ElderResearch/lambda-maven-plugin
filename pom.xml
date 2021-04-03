@@ -9,6 +9,13 @@
     <description>A maven plugin that deploys functions to AWS Lambda</description>
     <url>https://github.com/SeanRoy/lambda-maven-plugin</url>
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -249,7 +256,7 @@
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
-                        <phase>verify</phase>
+                        <phase>none</phase>
                         <goals>
                             <goal>sign</goal>
                         </goals>
