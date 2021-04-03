@@ -55,7 +55,7 @@
     </contributors>
 
     <properties>
-        <aws.version>1.11.271</aws.version>
+        <aws.version>1.11.991</aws.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -64,7 +64,7 @@
         <developerConnection>scm:git:git@github.com:QuiNovas/lambda-maven-plugin.git</developerConnection>
         <url>git@github.com:QuiNovas/lambda-maven-plugin.git</url>
     </scm>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
